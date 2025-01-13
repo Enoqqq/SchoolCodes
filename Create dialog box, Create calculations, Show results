@@ -1,0 +1,23 @@
+Step 11 - create the first dialog box
+String numDigit = JOptionPane.showInputDialog("Welcome to our program! Please enter a
+number (less than or equal to three digits) into the text box!"); // this creates a dialog box with
+the user able to enter a value and then assigns that value to a variable called “numDigit” which
+is of the data type String.
+completeNum = Integer.parseInt(numDigit); // this converts the string to a number so we can
+do some calculations on it!
+// note → we cannot go straight from the showInputDialog and assign it a variable of a type int
+or double, we need to do it in two steps!
+Step 12 - Create some calculations on the first input dialog box entry
+Now that we have “completeNum” as a number, we can do some calculations
+For example
+hundreds = completeNum/100;
+tens = (completeNum-hundreds*100)/10;
+etc.
+Step 13 - Show the results to the user
+//create a message dialog box so the calculations can be displayed to the user
+JOptionPane.showMessageDialog(null, "Value of ones = " + ones + "\nValue of
+tens = " + tens + "\nValue of hundreds = " + hundreds + "\n The sum of the
+digits is " + sum);
+DecimalFormat twoDigit = new DecimalFormat("#,##0.00"); // this isn't really
+necessary for this assignment, but I wanted to show how you to format numbers
+Computer Engineering
