@@ -1,0 +1,12 @@
+length() - returns the number of characters in the String
+􀀀 charAt() - returns the character at the specified index
+􀀀 equals() - returns true if two strings have equal contents
+􀀀 compareTo()
+􀀀 -returns 0 if equal,
+􀀀 -# if one String is "less than” the other
+􀀀 +# if one String is "greater than" the the other.
+􀀀 indexOf() - returns the index of specified String or character
+􀀀 substring() -returns a portion of the String's text
+􀀀 toUpperCase(), toLowerCase() - converts the String to upper or
+lower case character
+􀀀 http://docs.oracle.com/javase/7/docs/api/java/lang/String.html
