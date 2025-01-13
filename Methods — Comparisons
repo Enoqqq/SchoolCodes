@@ -1,0 +1,8 @@
+boolean b = s1.equals(s2);
+returns true if the string s1 is equal to s2
+boolean b = s1.equalsIgnoreCase(s2);
+returns true if the string s1 matches s2, case-blind
+int diff = s1.compareTo(s2);
+returns the “difference” s1 - s2
+int diff = s1.compareToIgnoreCase(s2);
+returns the “difference” s1 - s2, case-blind
