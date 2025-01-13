@@ -1,0 +1,10 @@
+(strString1.compareTo(strString2) = = 0) //Are the strings
+equal
+• (strString1.compareTo(strString2) ! = 0) //Are the strings
+different
+• (strString1.compareTo(strString2) > 0) //Is strString1 greater
+than strString2
+• What happens when one word is shorter than the other? How
+does it compare?
+• The shorter word is padded with blanks to have the same length
+and the comparison begins.
