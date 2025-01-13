@@ -1,0 +1,24 @@
+Step 14 - Have the user enter the next number, i.e. the radius, which will be used
+to calculate the area and the circumference.
+// create my second input dialog box so the user can enter the radius
+String numPiAndCircumfrance = JOptionPane.showInputDialog("Now, enter the
+radius of your circle");
+radiusEntered = Integer.parseInt(numPiAndCircumfrance)
+Step 15 - Calculate the area using the radius entered
+area = PI*radiusEntered;
+circumference = 2*PI*radiusEntered;
+Step 16 - Display the area and circumference calculated to the user using a
+message dialog box
+JOptionPane.showMessageDialog(null, "area = " + area + "\ncircumferance = " +
+circumference );
+Step 17 - Make sure the public static void main is within the closing brace of the
+class
+} // this is the closing brace of the method calcGuiApp()
+public static void main(String[] args) {
+} // this is the closing brace for public static void main
+} // this is the closing brace of the class!
+Step 18 - add the following code within public static void main ….
+} // this is the closing brace of the method calcGuiApp()
+public static void main(String[] args) {
+calcGuiApp(); // this calls the method
+} // this is the closing brace for public static void main
