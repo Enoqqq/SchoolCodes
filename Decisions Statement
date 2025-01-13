@@ -1,0 +1,12 @@
+The curly braces become important when you have more than
+one statement after the if or else statement.
+• Let us look at Examples:
+intAge = 12
+Example 1: if( intAge < 12)
+CalculateDiscount();
+DisplayDiscount();
+Example 2: if( intAge < 12)
+{
+CalculateDiscount();
+DisplayDiscount();
+}
