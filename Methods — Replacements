@@ -1,0 +1,10 @@
+String s2 = s1.trim ();
+returns a new string formed from s1 by removing white
+space at both ends
+String s2 = s1.replace(oldCh, newCh);
+returns a new string formed from s1 by replacing all
+occurrences of oldCh with newCh
+String s2 = s1.toUpperCase();
+String s2 = s1.toLowerCase();
+returns a new string formed from s1 by converting its
+characters to upper (lower) case
