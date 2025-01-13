@@ -1,0 +1,14 @@
+if (fltHours > 40.0f) //note no semicolon!!!
+{
+CalculateOvertime();
+}
+if (intGrade >= 70)
+{
+lblGrade.setText("Pass");
+}
+else
+{
+lblGrade.setText("No Pass");
+}
+if (intAge < 12)
+CalculateDiscount();
