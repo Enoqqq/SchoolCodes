@@ -33,3 +33,17 @@ g.getFont().getSize() + " point bold italic.", 20, 200);
 }}
 class Fonts extends JFrame
 {
+Fonts()
+{ setTitle("ShowFonts");
+setSize(500, 400);
+setLocation(200, 200);
+Container contentPane = getContentPane();
+contentPane.add(new FontPanel()); // default = "Center"
+}}
+public class ShowFonts
+{
+public static void main(String [] args)
+{
+JFrame jf = new Fonts();
+jf.setVisible(true);
+}}
