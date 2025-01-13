@@ -1,0 +1,4 @@
+String strName = new String(“joan”);
+String strName2 = new String(“JOAN”);
+(strName.equals(strName2)); //evaluates to false
+(strName.equalsIgnoreCase(strName2)); // evaluates to true
