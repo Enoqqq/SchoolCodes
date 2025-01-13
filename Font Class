@@ -1,0 +1,35 @@
+Font Class
+Font objects can be created using the constructor:
+public Font(String name, int style, int points) and the constants: Font.PLAIN, Font.BOLD, and
+Font.ITALIC.
+Examples
+Font f1 = new Font("Helvetica", Font.BOLD, 18);
+Font f2 = new Font("Courier", Font.PLAIN, 12);
+Logical Names (preferred)
+Dialog, DialogInput, Monospaced, Serif, SansSerif.
+Example Write four lines of text on a panel that is placed on a frame. The lines illustrate different fonts.
+import java.awt.*;
+import javax.swing.*;
+class FontPanel extends JPanel
+{
+FontPanel()
+{ setBackground(Color.white);
+}
+public void paintComponent(Graphics g)
+{
+super.paintComponent(g); // clear background
+g.setFont(new Font("Serif", Font.BOLD, 12));
+g.drawString("Serif 12 point bold.", 20, 50 );
+g.setFont(new Font("Monospaced", Font.ITALIC, 24));
+g.drawString("Monospaced 24 point italic.", 20, 100);
+10 GUI Programming Copyright 2004 by Ken Slonneger
+g.setColor(Color.blue);
+g.setFont(new Font("SansSerif", Font.PLAIN, 14));
+g.drawString("SansSerif 14 point plain.", 20, 150);
+g.setColor(Color.red);
+g.setFont(new Font("Dialog", Font.BOLD + Font.ITALIC, 18));
+g.drawString(g.getFont().getName() + " " +
+g.getFont().getSize() + " point bold italic.", 20, 200);
+}}
+class Fonts extends JFrame
+{
